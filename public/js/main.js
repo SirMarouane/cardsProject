@@ -1,3 +1,5 @@
+alert("Bienvenue ! N'hésitez pas à lancer l'audio en bas à gauche.")
+
 // $$$$$$$$$$$ function random $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 let melangeTab = array => {
@@ -44,7 +46,7 @@ let peers = []
 let comp = 0
 
 document.querySelectorAll("img").forEach(carte => {
-    
+  
     carte.addEventListener('click', () => {
         
         if (carte.src.includes("back") && peers.length < 3) {
